@@ -12,10 +12,9 @@
   width: 200px;
   position: fixed;
   z-index: 1;
-  top: 20 em;
   left: 1em;
-  padding-top: 20px;
-  background-color: gray;
+  background-color: rgb(36, 36, 36);
+  color: white;
 }
 
 .price_range{
@@ -49,16 +48,26 @@ padding-left: 10%;
 
 
 .sale_ad{
-    background-image:url("./assets/Car-dealership2.jpeg");
-    width: 100%;
+    position: relative;
     text-align: center;
-    color: white;
+    color: rgb(70, 68, 68);
 }
+
+.sale_text_centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
 
 .column {
     float: left;
     width: 20%;
-    padding: 0 1em;
+    padding: 1em;
+    padding-right: 5em;
   }
   
   /* Remove extra left and right margins, due to padding in columns */
@@ -78,6 +87,31 @@ padding-left: 10%;
     text-align: center;
     background-color: #f1f1f1;
   }
+
+  .blog_column{
+    float: left;
+    padding: 1em;
+   
+  }
+
+  .picture_column_left{
+    width: 20%;
+    padding-right: 5em;
+  }
+
+  .blog_column_right{
+    width: 75%;
+  }
+
+  .blog_row:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+.read_more_button{
+    float: right;
+}
+  
   
 
 

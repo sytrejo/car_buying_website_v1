@@ -1,5 +1,6 @@
 .site_header{
     display: inline;
+    position: sticky;
 }
 
 .site_title{
@@ -9,10 +10,10 @@
 
 .side_search{
   height: 100%;
-  width: 200px;
+  width: 20%;
   position: fixed;
   z-index: 1;
-  left: 1em;
+  left: 0em;
   background-color: rgb(36, 36, 36);
   color: white;
 }
@@ -26,7 +27,7 @@ datalist {
   flex-direction: column;
   justify-content: space-between;
   writing-mode: vertical-lr;
-  width: 200px;
+  width: 100%;
 }
 
 option {
@@ -34,7 +35,7 @@ option {
 }
 
 input[type="range"] {
-  width: 200px;
+  width: 100%;
   margin: 0;
 }
 
@@ -43,7 +44,7 @@ input[type="range"] {
 }
 
 .main{
-padding-left: 10%;
+padding-left: 12%;
 }
 
 
@@ -96,7 +97,7 @@ padding-left: 10%;
 
   .picture_column_left{
     width: 20%;
-    padding-right: 5em;
+    padding-right: 7em;
   }
 
   .blog_column_right{

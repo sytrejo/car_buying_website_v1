@@ -1,0 +1,43 @@
+.site_header{
+    display: inline;
+}
+.site_title{
+    float: right;
+    text-align: center;
+}
+
+.side_search{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 20 em;
+  left: 1em;
+  padding-top: 20px;
+  background-color: gray;
+}
+
+.price_range{
+    padding-top: 1em;
+}
+
+datalist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: vertical-lr;
+  width: 200px;
+}
+
+option {
+  padding: 0em;
+}
+
+input[type="range"] {
+  width: 200px;
+  margin: 0;
+}
+
+.search_button{
+    margin: 1em;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Buying Website</title>
+</head>
+<body>
+    <div class="site_header">
+        <div class="site_title">
+            <h1>My Car Dealership</h1>
+        </div>
+        <div class="site_logo">
+            <img src=assets/silvia.jpg />
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="side_search">
+            <h3> Product Search </h3>
+            
+            <div class="make_list">
+                <h3>Make: </h3>
+                <form id="make_checkbox_select">
+                    <select name="make">
+                        <option value="Audi">Audi</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Chrysler">Chrysler</option>
+                        <option value="Citroen">Citroen</option>
+                        <option value="Dodge">Dodge</option>
+                        <option value="Fiat">Fiat</option> 
+                    </select>   
+                    <!-- <input type="submit" />   -->
+                </form>
+            </div>
+
+            <div class="model_list">
+                <h3>Model: </h3>
+                <form id="model_checkbox_select">
+                    <select name="model">
+                        <option value="model1">Model 1</option>
+                        <option value="model2">Model 2</option>
+                        <option value="model3">Model 3</option>
+                        <option value="model4">Model 4</option>
+                        <option value="model5">Model 5</option>
+                        <option value="model5">Model 6</option> 
+                    </select>   
+                    <!-- <input type="submit" />   -->
+                </form>
+            </div>
+
+            <div class="Engine_size_list">
+                <h3>Model: </h3>
+                <form id="engine_size_checkbox_select">
+                    <select name="engine_size">
+                        <option value="engine1">Engine 1</option>
+                        <option value="engine2">Engine 2</option>
+                        <option value="engine3">Engine 3</option>
+                        <option value="engine4">Engine 4</option>
+                        <option value="engine5">Engine 5</option>
+                    </select>   
+                    <!-- <input type="submit" />   -->
+                </form>
+            </div>
+
+            <div class="price_range">
+                <label for="price">Choose a price:</label>
+                <br />
+                <input type="range" id="price" list="values" />
+                <datalist id="values">
+                <option value="10000" label="10K"></option>
+                <option value="25000" label="25K"></option>
+                <option value="50000" label="50K"></option>
+                <option value="75000" label="75K"></option>
+                <option value="100000" label="100K"></option>
+                </datalist>
+            </div>
+
+            <button class="search_button"> Search </button>
+            
+        </div>
+        <div class="">
+
+        </div>
+    </div>
+    
+</body>
+</html>

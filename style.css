@@ -1,6 +1,7 @@
 .site_header{
     display: inline;
 }
+
 .site_title{
     float: right;
     text-align: center;
@@ -40,4 +41,16 @@ input[type="range"] {
 
 .search_button{
     margin: 1em;
+}
+
+.main{
+padding-left: 10%;
+}
+
+
+.sale_ad{
+    background-image:url("./assets/Car-dealership2.jpeg");
+    width: 100%;
+    text-align: center;
+    color: white;
 }
